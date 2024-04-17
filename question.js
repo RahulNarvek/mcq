@@ -240,7 +240,7 @@ function selectAnswer(e){
 function showScore(){
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
-    nextButton.innerHTML = "Better Luck Next Time!...;";
+    nextButton.innerHTML = "Better Luck Next Time!...";
     nextButton.style.display = "block";
 }
 
